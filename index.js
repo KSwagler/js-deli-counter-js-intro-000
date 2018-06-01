@@ -21,6 +21,8 @@ let i = 0;
    function currentLine (katzDeli) {
      let i = 0;
      let line = "The line is currently:"
+     line  += (i + 1) + ". " + katzDeli[i] + ", "
+
        i++
      while (i < katzDeli.length) {
      }
